@@ -15,6 +15,9 @@ const mongoose=require('mongoose')
          type: Array
          // requires:true
      },
+     imageLink:{
+         type:String,
+     },
      name:{
          type: String,
          // requires:true
